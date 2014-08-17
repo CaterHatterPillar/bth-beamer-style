@@ -1,3 +1,12 @@
+# USER-DEFINED IGNORES:
+\#*\#
+.\#*
+*~
+
+# Your presentation binary here:
+presentation.pdf
+
+# AUTO-GENERATED IGNORES:
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
