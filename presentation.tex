@@ -1,12 +1,29 @@
+% BTH Beamer Style
+% Blekinge Institute of Technology Beamer presentation class.
+% (See https://github.com/CaterHatterPillar/bth-beamer-style)
+%
+% The BTH (Blekinge Tekniska Högskola) logo is the intellectual property of
+% Blekinge Institute of Technology (used with permission).
+%
+% Licensed under the BSD 3-Clause License.
+% See adjoined LICENSE for more information.
+%
+
 \documentclass{beamer}
 \usetheme{BTH}
 
 \title{The BTH Beamer Style}
 \author{BTH Student}
-\date{January 1, 1970}
+\institute{Blekinge Institute of Technology}
+\date{January 1, 1970} % \today
 
 \begin{document}
-\maketitle
+{% Don't feature a footer on the title page:
+  \setbeamertemplate{footline}{} 
+  \begin{frame}
+    \titlepage
+  \end{frame}
+}
 
 \begin{frame}
 \frametitle{On the subject of UNIX}
